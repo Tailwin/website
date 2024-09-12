@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sider Menu Bar CSS</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!-- <nav class="container absolute flex justify-center">
+      <h1 class="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-500 to- to-blue-600">NARKOBOY</h1>
+      <a href="" class="p-2 m-2 shadow-2xl bg-slate-600">home</a>
+      <a href="" class="p-2 m-2 shadow-2xl bg-slate-600">Dashboard</a>
+      <a href="" class="p-2 m-2 shadow-2xl bg-slate-600" >foto</a>
+      <a href="" class="p-2 m-2 shadow-2xl bg-slate-600">About</a>
+      <a href="" class="p-2 m-2 shadow-blue-500 bg-slate-600">events</a>
+    </nav> -->
+   <nav class="fixed top-0 left-0 flex items-center w-full bg-gray-900">
+    <div class="container flex justify-between px-4">
+    <a href=""  class="text-2xl text-tansparent bg-clip-text bg-gradient-to-r from-green-500 to- to-blue-600">NARKOBOY</a>
+     <a href="http://" class="text-2xl font-extrabold text-white">whatsapp</a>
+    </div>
+   </nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="text-2xl sidebar">
+      <header class="flex justify-center justify-between">
+        <a href="http://"><button class="p-2 bg-orange-400">My portofolio</button></a>
+    </header>
+  <ul>
+    <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+    <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+    <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+    <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+    <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+    <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+    <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+  </ul>
+  <a href="http://"><button class="p-2 font-extrabold">Exit</button></a>
+  </div>
+
+  </body>
+</html>
