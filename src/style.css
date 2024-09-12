@@ -1,4 +1,9 @@
-
+body {
+    background: url('gambar.jpg') no-repeat;
+background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
 .container1 { padding: 2rem;}
 
 .slider-wrapper {
